@@ -1,0 +1,31 @@
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+/* Header Css Start*********** */
+#admin-header {
+  background-color: #f8f9fa;
+}
+.custom-search {
+  position: relative;
+  border-radius: 40px;
+  height: 33px;
+}
+
+.serch-icon {
+  position: absolute;
+  right: 21px;
+  top: 11px;
+}
+.admin-header-bottom {
+  background-color: #e2dbe845;
+}
+.admin-header-bottom-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.orders,
+.order-settings {
+  display: flex;
+}
